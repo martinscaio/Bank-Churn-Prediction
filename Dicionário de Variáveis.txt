@@ -1,3 +1,6 @@
+             DICIONÁRIO DE VARIÁVEIS
+
+
 CLIENTNUM                            - Client ID - Identifier
 
        
