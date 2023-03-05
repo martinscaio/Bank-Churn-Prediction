@@ -4,11 +4,11 @@
 ## Business Problem:
 
 
-Houve um aumento no número de clientes que abandonaram o serviço de cartão de crédito do banco. 
+Houve um aumento no número de clientes que abandonaram o serviço de cartão de crédito do banco. Podemos prever os potenciais Churns ?(clientes que cancelam/abandonam o serviço) 
 
 ## Objetivo:
 
-Construir um modelo de churn para prever os clientes com maior probabilidade, potencial de desistência
+Construir um modelo de churn para detectar os clientes com maior probabilidade, potencial de desistência
 
 Assim, sabendo quais são os clientes com antecedência, é possível que o banco ofereça melhores condições para os potenciais churn.
 
@@ -29,10 +29,10 @@ o número de vezes que entrou em contato com o banco no último ano, número de 
 ## Metodologia:
 
 Construção de um modelo de classificação para prever churn utilizando Random Forest, Decision Tree e Logistic Regression. 
-O modelo final selecionado utiliza o Random Forest por ser o modelo mais promissor. Neste modelo utilizamos pre processing (One Hot Encoding), Feature Selection
+O modelo final selecionado utiliza o Random Forest por ser o modelo mais promissor. Neste modelo utilizamos pre processing (Target Encoder), Feature Selection
 (Teste Univariado F), tunagem de hiperparametros...
 
-Fiz um modelo preliminar em R também, mas o modelo completo e final está feito em Python
+Fiz um modelo preliminar em R também, mas o modelo completo e final está feito em Python(Sklearn).
 
 
 ## Resultados e métricas do modelo
